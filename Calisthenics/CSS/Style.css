@@ -409,8 +409,8 @@ footer .footer-bottom {
   .items{
     position: absolute;
     right: 0px;
-    top: 6vh;
-    height: 94vh;
+    top: 5vh;
+    height: 95vh;
     width: 50%;   
     display: flex; 
     flex-direction: column !important;
