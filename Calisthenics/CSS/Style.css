@@ -446,6 +446,9 @@ footer .footer-bottom {
   #gift .gift-cards div img {
     display: none;
   }
+  .gift-cards p {
+    display: none;
+  }
 
 
 }
