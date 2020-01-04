@@ -24,7 +24,7 @@ body {
    margin: 0; 
    color: #fff;
    line-height: 1.6;
-   overflow-x: hidden;
+   
  }
 
  img {
@@ -401,7 +401,7 @@ footer .footer-bottom {
   *{
     font-size: 16px;
   }
-   html {
+   body {
      overflow-x: hidden;
    }
   
