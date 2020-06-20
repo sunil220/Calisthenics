@@ -1,0 +1,25 @@
+@media screen and (max-width: 580px) {
+	* {
+		font-size: 16px;
+	}
+
+	footer .footer-cols {
+		grid-template-columns: 1fr;
+	}
+
+	.l-heading {
+		font-size: 3em !important;
+		margin-bottom: 1.5rem;
+		letter-spacing: 0.7rem;
+	}
+
+	#showcase .section-main {
+		font-size: initial;
+		height: fit-content;
+	}
+
+	footer .footer-cols ul:nth-of-type(1),
+	footer .footer-cols ul:nth-of-type(4) {
+		display: none;
+	}
+}
