@@ -93,60 +93,6 @@ h3 {
 	margin-top: 1rem;
 }
 
-/* Navigation  */
-
-nav {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	opacity: 0.9;
-	z-index: 4;
-}
-#navbar {
-	background: #444;
-	font-size: 1.4rem;
-}
-#navbar .container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-#navbar .container .items {
-	display: flex;
-	flex-direction: row;
-}
-
-#navbar .items li {
-	padding: 0.8rem;
-}
-
-#navbar .items li a:hover {
-	background-color: #333;
-	padding: 1rem;
-}
-
-.logo a {
-	color: #ebf569;
-	font-weight: 600;
-	font-size: 2rem;
-	letter-spacing: 0.3rem;
-	text-transform: uppercase;
-	text-shadow: 4px 4px 10px black;
-}
-.burger {
-	display: none;
-}
-
-.burger div {
-	width: 30px;
-	height: 3px;
-	background-color: white;
-	margin: 5px;
-	transition: all 0.3s ease;
-}
-
 /*Showcase */
 #showcase {
 	color: #fff;
@@ -201,7 +147,7 @@ nav {
 	margin-right: 1rem;
 }
 
-/*  Section */
+/* workout Section */
 
 #workout {
 	padding: 2rem 0;
@@ -224,6 +170,21 @@ nav {
 
 #workout .container p:last-child {
 	padding-top: 0;
+}
+
+#workout .btn {
+	animation: outofBox 2s ease-out;
+}
+
+@keyframes outofBox {
+	from {
+		opacity: 0;
+		transform: translateX(-1000px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0px);
+	}
 }
 
 /* Training Section  */
@@ -307,13 +268,13 @@ nav {
 	}
 }
 
-.toggle .line1 {
+.line1 {
 	transform: rotate(-45deg) translate(-6px, 5px);
 }
 
-.toggle .line2 {
+.line2 {
 	opacity: 0;
 }
-.toogle .line3 {
+.line3 {
 	transform: rotate(45deg) translate(-6px, -5px);
 }
