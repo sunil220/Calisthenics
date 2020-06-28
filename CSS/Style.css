@@ -173,12 +173,12 @@ h3 {
 }
 
 #workout .btn {
-	animation: outofBox 2s ease-out;
+	opacity: 0;
+	animation: outofBox 2s 2s ease-out forwards;
 }
 
 @keyframes outofBox {
 	from {
-		opacity: 0;
 		transform: translateX(-1000px);
 	}
 	to {
